@@ -1,0 +1,19 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#time, #date, #week-day, h2{
+    color: turquoise;
+    text-align: left;
+    margin: 0, 10px;
+    font-size: 25px;
+
+}
+
+h1{
+    color: gold;
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Kaushan Script', cursive;
+
+}
