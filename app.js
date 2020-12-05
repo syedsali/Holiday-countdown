@@ -146,6 +146,8 @@ console.log(thingOne+ " " + thingTwo)
 
 // // Your Code:
 
+let fullName= "SyedS.Ali"
+console.log(fullName)
 
 // 9- // Create a variable called bill and assign it the result of 10.25 + 3.99 + 7.15 (don't perform the calculation yourself, let JavaScript do it!). Next, create a variable called tip and assign it the result of multiplying bill by a 15% tip rate. Finally, add the bill and tip together and store it into a variable called total.
 
@@ -157,6 +159,10 @@ console.log(thingOne+ " " + thingTwo)
 
 // // Your Code:
 
+let bill= 10.25 + 3.99 + 7.15;
+let tip= 0.15  * bill;
+let total = tip + bill;
+console.log("$"+ total.toFixed(2));
 
 // 10- // "Hi, my name is Julia. I love cats. In my spare time, I like to play video games."
 // // "Hi, my name is James. I love baseball. In my spare time, I like to read."
@@ -165,7 +171,20 @@ console.log(thingOne+ " " + thingTwo)
 // // Use your variables and string concatenation to create your own awesome message and store it in an awesomeMessage variable. Finally, print your awesome message to the JavaScript console.
 
 // // Your Code:
+let firstName= "Julia";
+let interest= "cats";
+let hobby= "Video Games";
+let awesomemessage= "Hi, my name is "+ firstName +"." + "I love "+ interest +"." + "In my Spare time, I like to play "+ hobby + ".";
+console.log(awesomemessage);
+
 
 // -11- //Create 2 variables one called big and one called small. Set the strings to each: "I am Big like a elepant!" "I am Small like a mouse!". Use string methods to make the 
 // //'small' variable lowercase and the 'big' variable capital.
 // //console.log out the results
+
+let big= "I am Big like an elephant!";
+let small= "\nI am small like a mouse!";
+console.log(big.toUpperCase()+small.toLocaleLowerCase() );
+
+
+
