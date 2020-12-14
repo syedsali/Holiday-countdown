@@ -51,6 +51,16 @@ function runClock(){
 
 
 }
+// if (timeleft < 0) {
+//     clearInterval(myfunc);
+//     document.getElementById("days").innerHTML = ""
+//     document.getElementById("hours").innerHTML = "" 
+//     document.getElementById("mins").innerHTML = ""
+//     document.getElementById("secs").innerHTML = ""
+//     document.getElementById("end").innerHTML = "TIME UP!!";
+// }
+
+
 
 // var countDownDate = new Date("Jan 01, 2021 00:00:01").getTime();
 // var myfunc = setInterval(function() { 
