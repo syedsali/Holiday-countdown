@@ -2,18 +2,131 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#time, #date, #week-day, h2{
-    color: turquoise;
-    text-align: left;
-    margin: 0, 10px;
-    font-size: 25px;
+#dat{
+    color: orange;
+    margin-left: 10px;
+    font-size: 35px;
+    margin-top: -19px;
+
 
 }
 
 h1{
     color: gold;
     text-align: center;
-    font-size: 65px;
+    font-size: 75px;
     font-family: 'Kaushan Script', cursive;
 
+}
+#cd{
+    margin-left: 10px;
+    color: turquoise;
+    font-size: 35px;
+}
+
+#time{
+    color: turquoise;
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+.tym{
+    color: orange;
+    margin-left: 10px;
+    margin-top: -23px;
+    font-size: 40px;
+    font-style: bold;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+    background-color: transparent;
+    
+}
+p {
+    display: inline;
+    font-size: 40px;
+    margin-top: 0px;
+  }
+
+#dateNow{
+      font-size: 0px;
+
+  }
+.count{
+    text-align: center;
+    font-size: 60px;
+    color: red;
+    font-family: 'Kaushan Script', cursive;
+}
+
+  #ele{
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        margin-right: -10%;
+        margin-top: -10px;
+        text-decoration: none;
+        
+  }
+
+#days{
+    padding: 15px;
+    font-size: 60px;
+    margin-right: 100px;
+    color: silver;
+    font-style: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hrs{
+    padding: 15px;
+    font-size: 60px;
+    margin-right: 150px;
+    color: silver;
+    font-style: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+#mins{
+    padding: 15px;
+    font-size: 60px;
+    margin-right: 150px;
+    color: silver;
+    font-style: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+#secs{
+    padding: 10px;
+    font-size: 60px;
+    margin-right: 100px;
+    color: silver;
+    font-style: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+.dy{
+    margin-left: 405px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    color: thistle;
+}
+
+.hr{
+    margin-left: 128px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    color: thistle;
+}
+
+.min{
+    margin-left: 155px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    color: thistle;
+}
+.snd{
+    margin-left: 155px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    color: thistle;
 }

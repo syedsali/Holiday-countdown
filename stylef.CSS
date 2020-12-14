@@ -1,0 +1,29 @@
+body {
+background-image: url(https://media.giphy.com/media/dw2yCF4MhcNmSMgpfe/giphy.gif);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+#maintext {
+    text-align: center;
+    font-family: 'Langar', cursive;
+    color: black;
+}
+
+#buttons {
+    margin-left: 690px;
+    background-color: transparent;
+    font-family: 'Langar', cursive;
+    border-radius: 15px;
+    
+}
+
+#btn {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 40px;
+    font-family: 'Texturina', serif;
+    color: red;
+    
+}

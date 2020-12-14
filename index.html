@@ -7,24 +7,60 @@
     <title>Holiday-Countdown</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
 </head>
-<body background="images/final.png" >
+<body background="images/final.png">  
       <h1>Happy New Year's</h1>
       
       <br>
-      
-      <h2>Current Time</h2>
-      <div id="time"></div> <br>
-      <h2>Current Date</h2>
-      <div id="week-day"></div> <br>
-      <div id="date"></div>
-      
+      <div>
+          <h2 id="cd">Current Date</h2>
+          <h3 id="dat"></h3>
 
+      </div>
+      <br>
+
+
+      <h2 id="time">Current Time</h2>
+      
+            
+      
+            <form name="Tick">
+              <input class="tym" type="text" size="10" name="Clock"  >
+            </form>
+    
+
+      <!-- <div>
+           <h2 id="time">Current Time</h2>
+           <h3 id="tym"></h3>
+
+      </div> -->
+
+      <h2 class="count">"COUNTDOWN &nbsp 2021"</h2>
+    <div id="ele">
+           <p id="days"></p>
+            <p id="hrs"></p>
+            <p id="mins"></p>
+            <p id="secs"></p>
+            <h6 id="dateNow"></h6>
+    </div>
+
+    <div class="fot">
+        <p class="dy">DAYS</p>
+        <p class="hr">HOURS</p>
+        <p class="min">MINUTES</p>
+        <p class="snd">SECONDS</p>
+    </div>
+      
+<!-- 
       <div id="haiku">
         Blowing from the west <br>
         Fallen leaves gather <br>
         In the east.
-      </div>
+      <!-- </div> -->
       
 
 
@@ -39,6 +75,6 @@
 
 
 
-    <script src="app.js" async></script>
+    <script src="app.js" defer></script>
 </body>
 </html>
